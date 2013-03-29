@@ -12,11 +12,6 @@ public class HelloWorld {
 	@Produces(MediaType.TEXT_PLAIN)
 	public String helloWorld() {
 		return ("Hello World");
-	}
-	
-	public void main(String[] args){
-		helloWorld();
-	}
-	
+	}	
 }
 
